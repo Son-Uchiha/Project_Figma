@@ -3,3 +3,44 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.TopHeader {
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  padding: 12px 0;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.body .box1 {
+  width: 474px;
+  font-weight: 400;
+  margin-right: 8px;
+}
+
+.body .box2 a {
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+  margin-right: 231px;
+}
