@@ -1,9 +1,11 @@
+/* Reset cơ bản */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Thiết lập font và kích thước cơ bản */
 html {
   font-size: 10px;
 }
@@ -12,18 +14,21 @@ a {
   text-decoration: none;
 }
 
+/* Header chính */
 .TopHeader {
   background-color: black;
   color: white;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
 
+/* Container trung tâm */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
+/* Body chính */
 .body {
   display: flex;
   padding: 12px 0;
@@ -32,15 +37,24 @@ a {
   align-items: center;
 }
 
+/* Hộp 1 */
 .body .box1 {
   width: 474px;
   font-weight: 400;
   margin-right: 8px;
 }
 
+/* Link trong hộp 2 */
 .body .box2 a {
   text-decoration: underline;
   color: white;
   font-weight: 600;
   margin-right: 231px;
+}
+
+/* Link chứa hình ảnh */
+.body .image a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
